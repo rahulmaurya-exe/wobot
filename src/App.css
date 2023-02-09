@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  height: 100px;
+}
+
+#logo-wobot {
+  margin-bottom: 10px;
+  padding-left: 100px;
+  height: 100px;
+}
+
+.sign-up-card {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-form {
+  width: 550px;
+  background-color: #fefffe;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-content {
+  width: 410px;
+}
+
+.input-label {
+  padding: 10px 10px 10px 0;
+}
+
+input,
+select {
+  padding: 0.8rem;
+}
+
+.inputs {
+  text-decoration: none;
+  border: 1px solid #cfd5da;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+}
+.form-header {
+  display: flex;
+  justify-content: center;
+}
+.form-header-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 75%;
+}
+.form-header-data > p {
+  padding: 10px 0px;
+}
+#logo-form {
+  height: 60px;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-locations-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input-locations-btn {
+  padding: 5px 10px;
+  border: none;
+}
+.input-locations-btn:hover {
+  background-color: #7d97e0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.submit-btn {
+  background-color: #3767e9;
+  color: white;
+  width: 100%;
+  height: 40px;
+  margin: 20px 0px;
+  border: none;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: #053cd4;
+}
+.footer {
+  position: fixed;
+  bottom: 10px;
+  padding: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-links > a {
+  text-decoration: none;
+  color: black;
+}
