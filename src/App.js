@@ -67,8 +67,8 @@ function App() {
       </div>
       <div className="footer">
         <div className="footer-links">
-          <a href="">Terms Of Use </a>&nbsp; | &nbsp;
-          <a href="">Privacy Policy</a>
+          <a href="http://localhost:3000/">Terms Of Use </a>&nbsp; | &nbsp;
+          <a href="http://localhost:3000/">Privacy Policy</a>
         </div>
       </div>
     </div>
